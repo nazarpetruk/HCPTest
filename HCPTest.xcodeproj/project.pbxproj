@@ -56,15 +56,55 @@
 		44A2069523F3F67000BEB75E /* HCPTest */ = {
 			isa = PBXGroup;
 			children = (
-				44A2069623F3F67000BEB75E /* AppDelegate.swift */,
-				44A2069823F3F67000BEB75E /* SceneDelegate.swift */,
-				44A2069A23F3F67100BEB75E /* ViewController.swift */,
-				44A2069C23F3F67100BEB75E /* Main.storyboard */,
-				44A2069F23F3F67300BEB75E /* Assets.xcassets */,
-				44A206A123F3F67300BEB75E /* LaunchScreen.storyboard */,
+				44A206AE23F3F6D000BEB75E /* Assets&Storyboard */,
+				44A206AD23F3F6AD00BEB75E /* App&SceneDelegate */,
+				44A206AC23F3F69A00BEB75E /* Controller */,
+				44A206AB23F3F69200BEB75E /* View */,
+				44A206AA23F3F68B00BEB75E /* Model */,
 				44A206A423F3F67300BEB75E /* Info.plist */,
 			);
 			path = HCPTest;
+			sourceTree = "<group>";
+		};
+		44A206AA23F3F68B00BEB75E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44A206AB23F3F69200BEB75E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44A206AC23F3F69A00BEB75E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44A2069A23F3F67100BEB75E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44A206AD23F3F6AD00BEB75E /* App&SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				44A2069623F3F67000BEB75E /* AppDelegate.swift */,
+				44A2069823F3F67000BEB75E /* SceneDelegate.swift */,
+			);
+			path = "App&SceneDelegate";
+			sourceTree = "<group>";
+		};
+		44A206AE23F3F6D000BEB75E /* Assets&Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				44A2069C23F3F67100BEB75E /* Main.storyboard */,
+				44A2069F23F3F67300BEB75E /* Assets.xcassets */,
+				44A206A123F3F67300BEB75E /* LaunchScreen.storyboard */,
+			);
+			path = "Assets&Storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nazarDev.HCPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nazarDev.HCPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
