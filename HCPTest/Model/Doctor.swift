@@ -23,10 +23,11 @@ struct Doctor : Codable{
     let city : String
     let state : String
     let phoneNumber : String
+    let licenceNbr : String
     
     
     
-    init(firstName: String, lastName: String, middleName: String, credentials: String, enumerationDate : String, status: String, countryName : String, address: String, city: String, state: String, phoneNumber: String) {
+    init(firstName: String, lastName: String, middleName: String, credentials: String, enumerationDate : String, status: String, countryName : String, address: String, city: String, state: String, phoneNumber: String, licenceNmbr : String) {
         self.adress = address
         self.city = city
         self.state = state
@@ -38,5 +39,6 @@ struct Doctor : Codable{
         self.middleName = middleName
         self.phoneNumber = phoneNumber
         self.enumerationDate = enumerationDate
+        self.licenceNbr = licenceNmbr
     }
 }

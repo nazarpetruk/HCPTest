@@ -9,8 +9,5 @@
 import UIKit
 
 class ContactListCell: UITableViewCell {
-    
-    //MARK: - IBOutlets
     @IBOutlet weak var contactNameLbl: UILabel!
-
 }
