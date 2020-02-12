@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		44A2069723F3F67000BEB75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2069623F3F67000BEB75E /* AppDelegate.swift */; };
 		44A2069923F3F67000BEB75E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2069823F3F67000BEB75E /* SceneDelegate.swift */; };
-		44A2069B23F3F67100BEB75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2069A23F3F67100BEB75E /* ViewController.swift */; };
+		44A2069B23F3F67100BEB75E /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2069A23F3F67100BEB75E /* ListVC.swift */; };
 		44A2069E23F3F67100BEB75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A2069C23F3F67100BEB75E /* Main.storyboard */; };
 		44A206A023F3F67300BEB75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A2069F23F3F67300BEB75E /* Assets.xcassets */; };
 		44A206A323F3F67300BEB75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A206A123F3F67300BEB75E /* LaunchScreen.storyboard */; };
+		44A206B023F40AA200BEB75E /* DoctorCallResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206AF23F40AA200BEB75E /* DoctorCallResults.swift */; };
+		44A206B223F40B6C00BEB75E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206B123F40B6C00BEB75E /* Doctor.swift */; };
+		44A206B423F40D9A00BEB75E /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206B323F40D9A00BEB75E /* Basics.swift */; };
+		44A206B623F40E5100BEB75E /* Adresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206B523F40E5100BEB75E /* Adresses.swift */; };
+		44A206B923F412EE00BEB75E /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206B823F412EE00BEB75E /* NetworkingClient.swift */; };
+		44A206BC23F4137700BEB75E /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206BB23F4137700BEB75E /* BaseUrl.swift */; };
+		44A206C023F41BA300BEB75E /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206BF23F41BA300BEB75E /* ContactListCell.swift */; };
+		44A206C223F41E9C00BEB75E /* DoctorListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206C123F41E9C00BEB75E /* DoctorListModel.swift */; };
+		44A206C423F4267B00BEB75E /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A206C323F4267B00BEB75E /* DoctorModel.swift */; };
+		44E6FCA423F455F700DF6620 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCA323F455F700DF6620 /* DetailVC.swift */; };
+		44E6FCA823F45AA500DF6620 /* PhoneNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCA723F45AA500DF6620 /* PhoneNumberTableViewCell.swift */; };
+		44E6FCAA23F45ABC00DF6620 /* AdressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCA923F45ABC00DF6620 /* AdressTableViewCell.swift */; };
+		44E6FCAC23F45AF300DF6620 /* EnumerationDateCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCAB23F45AF300DF6620 /* EnumerationDateCellTableViewCell.swift */; };
+		44E6FCAE23F45B0E00DF6620 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCAD23F45B0E00DF6620 /* NotesTableViewCell.swift */; };
+		44E6FCB023F460D600DF6620 /* UniversalExtraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E6FCAF23F460D600DF6620 /* UniversalExtraTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44A2069323F3F67000BEB75E /* HCPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A2069623F3F67000BEB75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44A2069823F3F67000BEB75E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44A2069A23F3F67100BEB75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44A2069A23F3F67100BEB75E /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		44A2069D23F3F67100BEB75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44A2069F23F3F67300BEB75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A206A223F3F67300BEB75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A206A423F3F67300BEB75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A206AF23F40AA200BEB75E /* DoctorCallResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCallResults.swift; sourceTree = "<group>"; };
+		44A206B123F40B6C00BEB75E /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		44A206B323F40D9A00BEB75E /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
+		44A206B523F40E5100BEB75E /* Adresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adresses.swift; sourceTree = "<group>"; };
+		44A206B823F412EE00BEB75E /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		44A206BB23F4137700BEB75E /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		44A206BF23F41BA300BEB75E /* ContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
+		44A206C123F41E9C00BEB75E /* DoctorListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListModel.swift; sourceTree = "<group>"; };
+		44A206C323F4267B00BEB75E /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		44E6FCA323F455F700DF6620 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		44E6FCA723F45AA500DF6620 /* PhoneNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTableViewCell.swift; sourceTree = "<group>"; };
+		44E6FCA923F45ABC00DF6620 /* AdressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressTableViewCell.swift; sourceTree = "<group>"; };
+		44E6FCAB23F45AF300DF6620 /* EnumerationDateCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationDateCellTableViewCell.swift; sourceTree = "<group>"; };
+		44E6FCAD23F45B0E00DF6620 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		44E6FCAF23F460D600DF6620 /* UniversalExtraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalExtraTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 		44A2069523F3F67000BEB75E /* HCPTest */ = {
 			isa = PBXGroup;
 			children = (
+				44A206B723F412CF00BEB75E /* Networking  */,
 				44A206AE23F3F6D000BEB75E /* Assets&Storyboard */,
 				44A206AD23F3F6AD00BEB75E /* App&SceneDelegate */,
 				44A206AC23F3F69A00BEB75E /* Controller */,
@@ -69,6 +100,12 @@
 		44A206AA23F3F68B00BEB75E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44A206AF23F40AA200BEB75E /* DoctorCallResults.swift */,
+				44A206C123F41E9C00BEB75E /* DoctorListModel.swift */,
+				44A206C323F4267B00BEB75E /* DoctorModel.swift */,
+				44A206B323F40D9A00BEB75E /* Basics.swift */,
+				44A206B523F40E5100BEB75E /* Adresses.swift */,
+				44A206B123F40B6C00BEB75E /* Doctor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,6 +113,12 @@
 		44A206AB23F3F69200BEB75E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44A206BF23F41BA300BEB75E /* ContactListCell.swift */,
+				44E6FCA723F45AA500DF6620 /* PhoneNumberTableViewCell.swift */,
+				44E6FCA923F45ABC00DF6620 /* AdressTableViewCell.swift */,
+				44E6FCAB23F45AF300DF6620 /* EnumerationDateCellTableViewCell.swift */,
+				44E6FCAD23F45B0E00DF6620 /* NotesTableViewCell.swift */,
+				44E6FCAF23F460D600DF6620 /* UniversalExtraTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,7 +126,8 @@
 		44A206AC23F3F69A00BEB75E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				44A2069A23F3F67100BEB75E /* ViewController.swift */,
+				44A2069A23F3F67100BEB75E /* ListVC.swift */,
+				44E6FCA323F455F700DF6620 /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +149,15 @@
 				44A206A123F3F67300BEB75E /* LaunchScreen.storyboard */,
 			);
 			path = "Assets&Storyboard";
+			sourceTree = "<group>";
+		};
+		44A206B723F412CF00BEB75E /* Networking  */ = {
+			isa = PBXGroup;
+			children = (
+				44A206B823F412EE00BEB75E /* NetworkingClient.swift */,
+				44A206BB23F4137700BEB75E /* BaseUrl.swift */,
+			);
+			path = "Networking ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +231,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A2069B23F3F67100BEB75E /* ViewController.swift in Sources */,
+				44E6FCAE23F45B0E00DF6620 /* NotesTableViewCell.swift in Sources */,
+				44A206B923F412EE00BEB75E /* NetworkingClient.swift in Sources */,
+				44A206B423F40D9A00BEB75E /* Basics.swift in Sources */,
+				44E6FCB023F460D600DF6620 /* UniversalExtraTableViewCell.swift in Sources */,
+				44E6FCA423F455F700DF6620 /* DetailVC.swift in Sources */,
+				44A2069B23F3F67100BEB75E /* ListVC.swift in Sources */,
+				44A206B223F40B6C00BEB75E /* Doctor.swift in Sources */,
+				44A206BC23F4137700BEB75E /* BaseUrl.swift in Sources */,
 				44A2069723F3F67000BEB75E /* AppDelegate.swift in Sources */,
+				44A206C223F41E9C00BEB75E /* DoctorListModel.swift in Sources */,
+				44A206C023F41BA300BEB75E /* ContactListCell.swift in Sources */,
+				44E6FCAC23F45AF300DF6620 /* EnumerationDateCellTableViewCell.swift in Sources */,
+				44A206C423F4267B00BEB75E /* DoctorModel.swift in Sources */,
+				44A206B023F40AA200BEB75E /* DoctorCallResults.swift in Sources */,
+				44E6FCA823F45AA500DF6620 /* PhoneNumberTableViewCell.swift in Sources */,
+				44E6FCAA23F45ABC00DF6620 /* AdressTableViewCell.swift in Sources */,
+				44A206B623F40E5100BEB75E /* Adresses.swift in Sources */,
 				44A2069923F3F67000BEB75E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
