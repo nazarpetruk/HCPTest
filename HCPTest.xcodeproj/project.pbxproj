@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444D025423F5541C00034CEE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D025323F5541C00034CEE /* File.swift */; };
 		4494730B23F4860D001F9380 /* DetailStaticTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494730A23F4860D001F9380 /* DetailStaticTableView.swift */; };
 		4494730D23F49243001F9380 /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494730C23F49243001F9380 /* ContactListCell.swift */; };
 		44A2069723F3F67000BEB75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A2069623F3F67000BEB75E /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444D025323F5541C00034CEE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		4494730A23F4860D001F9380 /* DetailStaticTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStaticTableView.swift; sourceTree = "<group>"; };
 		4494730C23F49243001F9380 /* ContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
 		44A2069323F3F67000BEB75E /* HCPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				44A2069A23F3F67100BEB75E /* ListVC.swift */,
+				444D025323F5541C00034CEE /* File.swift */,
 				4494730A23F4860D001F9380 /* DetailStaticTableView.swift */,
 			);
 			path = Controller;
@@ -225,6 +228,7 @@
 				44A206BC23F4137700BEB75E /* BaseUrl.swift in Sources */,
 				44A2069723F3F67000BEB75E /* AppDelegate.swift in Sources */,
 				44A206C223F41E9C00BEB75E /* DoctorListModel.swift in Sources */,
+				444D025423F5541C00034CEE /* File.swift in Sources */,
 				44A206C423F4267B00BEB75E /* DoctorModel.swift in Sources */,
 				44A206B023F40AA200BEB75E /* DoctorCallResults.swift in Sources */,
 				44A206B623F40E5100BEB75E /* Adresses.swift in Sources */,
